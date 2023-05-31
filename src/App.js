@@ -1,25 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+//import FormSearch from './form/form-search';
+//import FormBootstrap from './form/form-bootstrap';
+//import FormValidation from './form/form-validation';
+import FormRegister from './form/form-register';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    //<FormSearch />
+    //<FormBootstrap />
+    //<FormValidation />
+    <FormRegister />
+  )
 }
 
 export default App;
